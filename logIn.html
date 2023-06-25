@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="login-body">
+    <div class="container" id="login-container">
+    <div class="row justify-content-left">
+      <div class="col-md-4 p-3 mb-2 bg-transparent text-dark">
+        <h1 class="mb-4 text-primary"><center> LOGIN </center></h1><br><br>
+
+        
+          <div class="mb-5">
+            <label for="username" class="form-label text-info">Email</label>
+            <input type="Email" class="form-control" id="loginEmail" required>
+          </div><br><br>
+
+          <div class="mb-5">
+            <label for="password" class="form-label text-info">Password</label>
+            <input type="password" class="form-control" id="loginPass" required><br>
+            <div class="text-info float-right">Don't have an account <a href="signup.html">Sign Up Here</a> </div>
+          </div><br>
+
+          <center><button onclick="login()" type="submit" class="btn btn-primary">LOGIN</button></center>
+       
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script src="app.js"></script>

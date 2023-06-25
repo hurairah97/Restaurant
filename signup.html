@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="login-body">
+    <div class="container mt-5">
+    <div class="row justify-content-left">
+      <div class="col-md-4 p-3 mb-2 bg-transparent text-dark">
+        <h1 class="mb-4 text-primary"><center> Sign Up </center></h1><br>
+
+         
+            <div class="mb-5">
+            <label for="username" class="form-label text-info">Name</label>
+            <input type="text" class="form-control" id="signupName"  required>
+            </div>
+          <div class="mb-5">
+            <label for="password" class="form-label text-info">Email</label>
+            <input type="email" class="form-control" id="signupEmail"   required>
+          </div>
+          <div class="mb-5">
+            <label for="password" class="form-label text-info">Password</label>
+            <input type="password" class="form-control" id="signupPass"   required>
+          </div>
+          <div class="mb-5">
+            <label for="password" class="form-label text-info">D O B</label>
+            <input type="date" class="form-control" id="signupDate" required>
+            <br>
+            <div class="text-info float-right">Already have an account <a href="login.html">Login Here</a> </div>
+          </div><br>
+          
+          <center><button  onclick="signup()" class="btn btn-primary">SIGNUP</button></center><br>
+        
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script src="app.js"></script>
